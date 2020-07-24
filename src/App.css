@@ -12,7 +12,9 @@ img {
   bottom: 0; left: 0;
 }
 
-#foreground1, #foreground2 { z-index: 1 ;}
+#foreground1, #foreground2 {
+  z-index: 5 ;
+}
 
 #foreground2, #background2 {
   transform: translateX(100%);
@@ -51,7 +53,7 @@ img {
 }
 
 #bush {
-  top: 55%; left: 20%    
+  top: 55%; left: 20% ;
 }
 
 #red-queen_and_alice {
@@ -103,7 +105,7 @@ html, body {
   position: absolute;
 }
 
-#greenPotionWarning {
+/* #greenPotionWarning {
   z-index: 2;
   position: absolute;
   top: 7.5vh;
@@ -121,4 +123,4 @@ html, body {
   left: 50vw;
   z-index: 2;
   visibility: hidden;
-}
+} */
