@@ -25,7 +25,7 @@ const Background1 = ({pbRate}) => {
     })
 
     useEffect(()=>{
-        getAnimation().updatePlaybackRate(pbRate[0])
+        getAnimation().updatePlaybackRate(pbRate)
     })
 
     // setInterval(() => {
